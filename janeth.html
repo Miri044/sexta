@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">..0
+    <link rel="shortcut icon" href="file:///D:/mero/Nueva%20carpeta/icon.png">
+    <link rel="stylesheet" href="../janeth/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../janeth/css/estilo.slider.1.css">
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a{
+            color:rgb(252, 244, 255);
+            text-decoration: none;
+        }
+
+        .icono{
+            display: flex;
+            align-items: center;
+        }
+        .icono img{
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        nav a{
+            font-weight: 600;
+            padding-right: 11px;
+
+        }
+        nav a:hover{
+            color:rgb(127, 182, 255);
+        
+        }
+        a:hover{
+            color:rgb(124, 169, 228);
+        }
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(50, 98, 170, 0.384);
+        }
+
+        li{
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color:rgb(252, 244, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /*cambia color cuando pasas por encima el mouse*/
+        li a:hover {
+            background-color:rgba(30, 59, 121, 0.514);
+        }
+        
+        .bt2{
+/*Estilos de texto*/
+font-size : 60px;
+font-weight: 500;
+font-family: 'Source Code Pro', monospace;
+background-color: rgba(58, 94, 141, 0.384);
+color: rgb(249, 236, 255);
+border: 4px rgba(253, 253, 253, 0.301) solid;
+    /*Espaciado de letras*/
+letter-spacing: 10px;
+    /*Espaciado de palabras*/
+
+    /*interlineado*/
+word-spacing: normal;
+    /*sangria*/
+
+    /*alineacion*/
+            text-align: center;
+    /*Estilos de texto*/
+    text-shadow: 5px  1px 0px rgb(0, 12, 116);
+        }
+        body {
+  background-image:url("../janeth/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sp1{
+            /*tamaño*/
+            width: 300px;
+            height: 300px;
+            background-color: rgba(59, 91, 179, 0.384);
+            max-width: 500px;
+            min-width: 500px;
+            max-height: 400px;
+            min-height: 300px;
+            /*padding*/
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            /*borde*/
+            border-width: 5px;
+            border-color: rgba(47, 72, 141, 0.514);
+            border-style: dotted;
+            border-radius: 10%;
+            /*margen*/
+            margin-top: 20px;
+            margin-left: 50px;
+            /*estilos de texto*/
+            font-size : 14px;
+    font-weight: 30;
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgba(44, 70, 141, 0.479);
+    color: rgb(249, 236, 255);
+    
+        }
+        
+        .uno{
+            font-size : 15px;
+            font-weight: 500;
+            font-family: 'Source Code Pro', monospace;
+            background-color: rgba(19, 54, 94, 0.644);
+            color: rgb(249, 236, 255);
+            margin-left: 30px;
+            margin-right: 30px;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 5px;
+            padding-bottom: 15px;
+        }
+
+        .dos{
+            font-size : 18px;
+            font-weight: 500;
+            font-family: italic;
+            border-width: 3px;
+            background-color:rgba(19, 54, 94, 0.644);
+            border-style: dotted;
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            color: rgb(249, 236, 255);
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        header{
+            display: flex;
+            background-color:rgba(63, 120, 194, 0.466);
+            min-height: 50px;
+            justify-content: space-between;
+            align-items: center;
+    
+        }
+        .icono{
+            display: flex;
+            align-items: center;
+        }
+        .icono img{
+            height: 80px;
+            margin-right: 20px;
+        }
+        .menu-bar a{
+            background: linear-gradient(currentcolor, currentcolor);
+            background-position: 78% 120%;
+            background-repeat: no-repeat;
+            background-size: 2% 2px;
+            transition: all 0.5s;
+        }
+        .social img{
+            height: 100px;
+        }
+        nav a:hover{
+            color:rgb(50, 94, 160);
+            background-size: 50% 4px;
+        }
+        a:hover{
+            color:rgba(23, 58, 97, 0.616)
+        }
+        .social img{
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://es.splatoonwiki.org/wiki/Octo_Expansion" target="_blank" class="icono">
+            <img src="../janeth/img/Logo-BTS-1.png">
+            <h2 class="empre">BTS</h2>
+        </a>
+        <nav class="menu-bar">
+            <a href="Debut">Debut</a>
+            <a href="Trayectoria">Trayectoria</a>
+            <a href="BTS Universe">BTS Universe</a>
+            <a href="Premios">Premios</a>
+        </nav>
+        <nav class="social">
+            <a href="#inicio"><img src="../janeth/img/descarga.jpg">
+            <a href="https://twitter.com/bts_bighit"><img src="../janeth/img/twitt.png">
+            <a href="https://www.instagram.com/bts.bighitofficial/"><img src="../janeth/img/descarga (1).jpg">
+            <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ"><img src="../janeth/img/yt.png">
+            </a>
+        </nav>
+    </header>
+</a>
+
+    <h1 class="bt2">BTS</h1>
+    <br>
+    <br>
+    <br>
+
+<div id="btn-top">
+    <span class="fas fa-angle-up"></span>
+</div>
+<br>
+<br>
+<br>
+<!-- SLIDER DE PRODUCTOS -->
+<section id="menu-productos">
+  <div class="contenedor-principal">
+       <button id="btn-izquierda"><span class="fas fa-angle-left"></span></button>
+
+       <div class="slider">
+            <div class="container-productos">
+                 <div class="descripcion-productos">
+                      <h2>Producto <b>premium</b></h2>
+                      <h1>Peperonni</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident debitis nihil incidunt quisquam ab reiciendis consequuntur iure.</p>
+
+                      <button class="btn"> ¡Solicitala aquí! <span class="fas fa-angle-right"></span></button>
+                 </div>
+
+                 <div class="imagen-productos">
+                      <img src="../janeth/img/bts-jungkook-cute-chibi-btsjungkook-png-bts-jung-kook-jungkook-chibi-drawi-11562967136cjd2dreghh.png" alt="">
+                 </div>
+            </div>
+            <div class="container-productos">
+                 <div class="descripcion-productos">
+                      <h2>Producto <b>premium</b></h2>
+                      <h1>Especial</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident debitis nihil incidunt quisquam ab reiciendis consequuntur iure.</p>
+                      <button class="btn"> ¡Solicitala aquí! <span class="fas fa-angle-right"></span></button>
+                 </div>
+                 <div class="imagen-productos">
+                      <img src="../janeth/img/bts-chibi-cute.png" alt="">
+                 </div>
+            </div>
+            <div class="container-productos">
+                 <div class="descripcion-productos">
+                      <h2>Producto <b>básico</b></h2>
+                      <h1>Margarita</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident debitis nihil incidunt quisquam ab reiciendis consequuntur iure.</p>
+                      <button class="btn"> ¡Solicitala aquí! <span class="fas fa-angle-right"></span></button>
+                 </div>
+                 <div class="imagen-productos">
+                      <img src="../img/menu/margarita.png" alt="">
+                 </div>
+            </div>
+            <div class="container-productos">
+                 <div class="descripcion-productos">
+                      <h2>Producto <b>premium</b></h2>
+                      <h1>Americana</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident debitis nihil incidunt quisquam ab reiciendis consequuntur iure.</p>
+                      <button class="btn"> ¡Solicitala aquí! <span class="fas fa-angle-right"></span></button>
+                 </div>
+                 <div class="imagen-productos">
+                      <img src="../img/menu/americana.png" alt="">
+                 </div>
+            </div>
+            <div class="container-productos">
+                 <div class="descripcion-productos">
+                      <h2>Producto <b>especial</b></h2>
+                      <h1>Suprema</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident debitis nihil incidunt quisquam ab reiciendis consequuntur iure.</p>
+                      <button class="btn"> ¡Solicitala aquí! <span class="fas fa-angle-right"></span></button>
+                 </div>
+                 <div class="imagen-productos">
+                      <img src="../img/menu/suprema.png" alt="">
+                 </div>
+            </div>
+       </div>
+       <button id="btn-derecha"><span class="fas fa-angle-right"></span></button>
+  </div>
+</section>
+
+<br>
+<br>
+
+<div class="ejemplo">
+    <div class="sp1">
+        BTS (en hangul, 방탄소년단) es un grupo surcoreano formado en Seúl en 2010, que debutó el 13 de junio de 2013 bajo la compañía Big Hit Music. Está compuesto por siete integrantes: Jin, Suga, J-Hope, RM, Jimin, V y Jungkook, quienes son los que coescriben y coproducen la mayor parte de su material discográfico. A pesar de haber sido creado con un estilo principalmente hip hop, ha llegado a incorporar una gran variedad de géneros en su repertorio musical.
+    </div>     
+    <div class="imagen">
+        
+        <img src="../janeth/img/cooky.png">
+        <img src="../janeth/img/rj.png">
+        <img src="../janeth/img/chi.png">
+        
+    </div>
+    
+</div>
+    <br>
+    <br>
+
+
+    
+    <br>
+    <br>
+    <p class="uno">
+        BTS es el artista con mayores ventas en la historia de Corea del Sur, con más de treinta millones en Gaon Music Chart, y mantiene el récord del álbum más vendido en ese país con Map of the Soul: 7. Así mismo, es el primer y único artista de habla no inglesa en ser nombrado como el artista global del año (2020) por la IFPI, en estar en la lista Top Touring Artists of the 2010s de Billboard y en dar un concierto —con todas las entradas agotadas— en el Estadio de Wembley. Por otro lado, la revista Time los incluyó en la portada de su edición internacional como «Líderes de la nueva generación» y han aparecido en varios de sus listados; estuvieron entre las 25 personas más influyentes en Internet, desde 2017 hasta 2019, y entre las 100 personas más influyentes en el mundo en 2019, en la que los apodaron «Príncipes del Pop».
+    </p>
+    <br>
+    <br>
+    <p class="uno">
+        El grupo ha recibido numerosos reconocimientos por su trabajo, incluyendo seis American Music Awards, nueve Billboard Music Awards y nominaciones en los premios Grammy y premios Brit. Tras establecer su campaña antiviolencia Love Myself, en colaboración con UNICEF, dio un discurso tanto en la 73.ª como en la 75.ª edición de la Asamblea General de las Naciones Unidas. Además, sus integrantes son los receptores más jóvenes de la Orden al Mérito Cultural, otorgada por el presidente de Corea del Sur por ayudar a expandir la cultura e idioma coreano en el mundo.
+    </p>
+    <p class="uno">
+        BTS ha sido considerada la «boy band más grande del mundo»,​ además de recibir otros apodos y descripciones por diversos medios, entre ellos «Príncipes del Pop» por la revista Time396​ y «el artista de K-pop más grande y exitoso del mundo» que puede «hacer cosas que ningún otro en su género» por Forbes.​ El Vicepresidente Sénior de Billboard Silvio Pietroluongo mencionó que BTS es comparable con The Beatles y The Monkees y tan influyente como ellos.​ Similarmente, la Vicepresidenta de Nielsen Music Helena Kosinski dijo que «aunque no fue el primero en abrir las puertas del K-pop a nivel mundial, fue el primero en alcanzar la popularidad. No atraen únicamente a los jóvenes sino también a grupos demográficos de 50 y 60 años».​
+    </p>
+    <br>
+    <br>
+    <p class="dos">
+        DISCOGRAFÍA:
+        *Proof	2022
+*Butter	2021
+*BTS, The Best	2021
+*Be	2020
+*Dynamite	2020
+*Map of the Soul: 7	2020
+*Lights/Boy with Luv	2019
+*BTS World: Original Soundtrack	2019
+*Map of the Soul: Persona	2019
+*Fake Love/Airplane Pt. 2	2018
+*Love Yourself: Answer	2018
+*Love Yourself: Tear	2018
+*Face Yourself	2018
+*Love Yourself: Her	2017
+*You Never Walk Alone	2017
+*Wings	2016
+*The Most Beautiful Moment in Life: Young Forever	2016
+*The Most Beautiful Moment in Life: Pt. 2	2015
+*The Most Beautiful Moment in Life: Pt. 1	2015
+*DARK & WILD	2014
+*Skool Luv Affair	2014
+*O!RUL8,2?	2013
+*2 COOL 4 SKOOL	201
+    </p>
+</body>
+</html>
